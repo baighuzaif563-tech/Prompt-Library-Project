@@ -1,25 +1,122 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>AI Prompt Library — Huzaif Baig</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify/themes/vue.css">
-</head>
-<body>
-  <div id="app"></div>
-  <script>
-    window.$docsify = {
-      name: '📚 AI Prompt Library',
-      repo: 'https://github.com/baighuzaif563-tech/Prompt-Library-Project',
-      loadSidebar: '_sidebar.md',
-      subMaxLevel: 2,
-      homepage: 'README.md',
-      alias: {
-        '/.*/_sidebar.md': '/_sidebar.md'
-      }
+  <meta charset="UTF-8" />
+
+  <title>🚀 AI Prompt Library — Huzaif Baig</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="description"
+    content="AI Prompt Library built using Docsify. Organized prompts for coding, interviews, learning, and productivity."
+  />
+
+  <!-- Modern Docsify Theme -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"
+  />
+
+  <!-- Copy Code Button CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/docsify-copy-code/dist/themes/default.css"
+  />
+
+  <!-- Custom Styling -->
+  <style>
+
+    :root {
+      --theme-color: #42b983;
     }
+
+    body {
+      font-family: Inter, sans-serif;
+    }
+
+    .sidebar .app-name {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .markdown-section {
+      max-width: 900px;
+    }
+
+    .cover-main {
+      text-align: center;
+    }
+
+    .cover-main h1 {
+      font-size: 55px;
+      margin-bottom: 10px;
+    }
+
+    .cover-main p {
+      font-size: 20px;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div id="app">Loading...</div>
+
+  <script>
+
+    window.$docsify = {
+
+      // Project Name
+      name: '🚀 Prompt Library',
+
+      // GitHub Repository
+      repo: 'https://github.com/baighuzaif563-tech/Prompt-Library-Project',
+
+      // Sidebar + Navbar
+      loadSidebar: true,
+      loadNavbar: true,
+
+      // Cover Page
+      coverpage: true,
+
+      // Auto Scroll Top
+      auto2top: true,
+
+      // Homepage
+      homepage: 'README.md',
+
+      // Sidebar Levels
+      subMaxLevel: 3,
+
+      // Search Plugin
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: '🔍 Search prompts...',
+        noData: '❌ No Results Found',
+        depth: 6
+      },
+
+      // Logo
+      logo: 'https://docsify.js.org/_media/icon.svg'
+
+    };
+
   </script>
+
+  <!-- Docsify -->
   <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+
+  <!-- Search Plugin -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+
+  <!-- Copy Code Plugin -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+
 </body>
+
 </html>
