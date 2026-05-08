@@ -1,7 +1,0 @@
-- **📚 Prompt Library**
-- [🏠 Home](/)
-- [📊 DSA](Dsa-prompts.md)
-- [🤖 AI Prompts](ai-Prompts.md)
-- [🗄️ SQL](Sql.md)
-- [🏗️ System Design](System-Design.md)
-- [☕ Java](java-prompts.md)
